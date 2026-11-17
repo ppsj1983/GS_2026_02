@@ -39,6 +39,11 @@ Este trabalho tem como propósito desenvolver um sistema de autoproteção indiv
 
 ## 👩🏻‍💻 Referencia de Pesquisa.
 
+Segurança Publica
+Conforme dados da Agência de Notícias do Governo do Estado de São Paulo (2026), o estado registrou em 2025 os menores índices históricos para roubos, homicídios e latrocínios, mantendo também uma queda gradual nos roubos de carga desde 2023. Apesar dessa retração, os volumes absolutos permanecem elevados, totalizando 549 mil furtos e 157 mil roubos em 2026. Os resultados positivos são atribuídos à atuação integrada das polícias Civil e Militar e ao emprego de tecnologias de vigilância e inteligência, como o sistema Muralha Paulista.
+No âmbito da capital paulista, levantamento da CBN São Paulo (2026) indica que, embora a maior parte dos bairros tenha acompanhado a tendência estadual de queda, determinadas localidades da Zona Sul apresentaram crescimento nos índices criminais. No Parque Santo Antônio, os registros de roubo aumentaram 21,76% entre 2024 e 2025, passando de 2.132 para 2.596 ocorrências. Esse cenário impacta diretamente a percepção de segurança da população local, evidenciada em relatos de moradores que apontam a baixa presença de policiamento ostensivo e a necessidade de alterar hábitos cotidianos, como evitar o uso de aparelhos celulares nas proximidades de estações de metrô, devido à sensação constante de vulnerabilidade.
+Portanto, os dados demonstram que a redução geral dos indicadores estaduais não ocorre de maneira homogênea no território urbano, impondo ao poder público o desafio de focalizar políticas de segurança e ações preventivas em regiões periféricas e socioeconômica e estruturalmente vulneráveis.
+
 Clima e Eventos Extermos
 Conforme a iniciativa MCR2030 (ONU, 2009), as ameaças naturais afetam os municípios de diferentes maneiras. No entanto, o potencial de desastre atinge todas as cidades, dependendo diretamente da forma como as autoridades lidam com o crescimento desordenado, a rápida urbanização e a degradação ambiental.
 Deslizamentos: O aumento de construções inadequadas ou improvisadas em encostas, penhascos ou nascentes de rios em vales montanhosos, aliado à falta de infraestrutura de proteção e drenagem, expõe cada vez mais pessoas a riscos graves. Esses deslizamentos são frequentemente provocados por chuvas intensas, saturação do solo ou atividade sísmica.
