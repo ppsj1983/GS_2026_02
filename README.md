@@ -35,7 +35,14 @@ Tamebm podemos observar que o clima esta mudando, esta alteração é observada 
 
 Diante desses cenário, torna-se evidente que os problemas enfrentados pelos moradores da Cidade de São Paulo ocorrem de forma isolada, mas sim como elementos de um mesmo sistema urbano sob pressão que necessita evoluir para promover um ambiente de bem estar social. A falta de integração entre as informações de trânsito, segurança pública e alertas meteorológicos dificulta tanto a tomada de decisão preventiva por parte do poder público, porem utilizando sistemas de Inteligencia Artificial é possivel cada morador ou visitante da cidade de São Paulo utilizar de soluções individuais para autoproteção deslocamentos diários ou monitoramento de risco do bem estar social.
 
-Este trabalho tem como propósito desenvolver um sistema de autoproteção individual que utiliza dados públicos de segurança, acidentes de trânsito e Defesa Civil para mapear zonas críticas na cidade de São Paulo. A solução cruza esses indicadores com previsões climáticas e aplica técnicas de Inteligência Artificial para estimar os riscos de cada localidade. Com isso, o sistema disponibiliza aos usuários uma interface de consulta e monitoramento online em tempo real, filtrada pela localização geográfica e pelo período do dia..
+Este trabalho tem como propósito desenvolver um sistema de autoproteção individual que utiliza dados públicos de segurança, acidentes de trânsito e Defesa Civil para mapear zonas críticas na cidade de São Paulo. A solução cruza esses indicadores com previsões climáticas e aplica técnicas de Inteligência Artificial para estimar os riscos de cada localidade. Com isso, o sistema disponibiliza aos usuários uma interface de consulta e monitoramento online em tempo real, filtrada pela localização geográfica e pelo período do dia.
+
+## 👩🏻‍💻 Referencia de Pesquisa.
+
+Clima e Eventos Extermos
+Conforme a iniciativa MCR2030 (ONU, 2009), as ameaças naturais afetam os municípios de diferentes maneiras. No entanto, o potencial de desastre atinge todas as cidades, dependendo diretamente da forma como as autoridades lidam com o crescimento desordenado, a rápida urbanização e a degradação ambiental.
+Deslizamentos: O aumento de construções inadequadas ou improvisadas em encostas, penhascos ou nascentes de rios em vales montanhosos, aliado à falta de infraestrutura de proteção e drenagem, expõe cada vez mais pessoas a riscos graves. Esses deslizamentos são frequentemente provocados por chuvas intensas, saturação do solo ou atividade sísmica.
+Inundações e Enchentes: Esses fenômenos tornam-se ameaças urbanas cada vez mais frequentes devido à impermeabilização do solo, já que superfícies compactadas e concretadas perdem a capacidade de absorver a água da chuva. O problema também se agrava com obras de engenharia que desviam o curso natural dos rios e com a ausência de sistemas de drenagem eficientes. Além disso, habitações instaladas em margens de rios ou próximas a deltas configuram-se como áreas de alto risco.
 - ...
 <p align="center">
 <img width="785" height="480" alt="Image" src="https://github.com/user-attachments/assets/2b081288-cead-489a-8ddc-b60f85c65ff5" /></a>
