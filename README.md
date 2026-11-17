@@ -48,6 +48,12 @@ Clima e Eventos Extermos
 Conforme a iniciativa MCR2030 (ONU, 2009), as ameaças naturais afetam os municípios de diferentes maneiras. No entanto, o potencial de desastre atinge todas as cidades, dependendo diretamente da forma como as autoridades lidam com o crescimento desordenado, a rápida urbanização e a degradação ambiental.
 Deslizamentos: O aumento de construções inadequadas ou improvisadas em encostas, penhascos ou nascentes de rios em vales montanhosos, aliado à falta de infraestrutura de proteção e drenagem, expõe cada vez mais pessoas a riscos graves. Esses deslizamentos são frequentemente provocados por chuvas intensas, saturação do solo ou atividade sísmica.
 Inundações e Enchentes: Esses fenômenos tornam-se ameaças urbanas cada vez mais frequentes devido à impermeabilização do solo, já que superfícies compactadas e concretadas perdem a capacidade de absorver a água da chuva. O problema também se agrava com obras de engenharia que desviam o curso natural dos rios e com a ausência de sistemas de drenagem eficientes. Além disso, habitações instaladas em margens de rios ou próximas a deltas configuram-se como áreas de alto risco.
+
+Acidentes de Transito
+Conforme G1 (2026) Mortes no trânsito da cidade de SP aumentam, e motociclistas são quase metade das vítimas
+Capital paulista registrou 782 mortes no trânsito entre janeiro e setembro de 2026; especialistas apontam imprudência e falta de fiscalização entre os fatores que contribuem para a alta.
+O aumento da frota de motocicletas na capital acompanha a tendência de crescimento das mortes. Em 2026, a cidade já tinha cerca de 1,17 milhão de motos em circulação, porem o problema se agrava em vias com caracteristicas especificas, Mutal 15 (2026) avalia que Moradores apontam riscos no trânsito nas vias com mais acidentes em SP, das 10 vias com maiores índices de mortes no trânsito em São Paulo, oito passam por distritos periféricos, a proporção de casos que levaram à morte (em relação ao total de acidentes) foi maior nas subprefeituras mais distantes do centro, como Perus, Pirituba e Campo Limpo, do que nas regiões centrais. Por outro lado, as ocorrências não fatais se destacam nas subprefeituras da Sé, no centro, na Penha e na Mooca, ambas na zona leste, e, como exceção, na Capela do Socorro, na zona sul.
+
 - ...
 <p align="center">
 <img width="785" height="480" alt="Image" src="https://github.com/user-attachments/assets/2b081288-cead-489a-8ddc-b60f85c65ff5" /></a>
