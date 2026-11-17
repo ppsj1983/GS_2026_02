@@ -22,9 +22,9 @@
 
 ## 👩🏻‍💻 Linha de Pesquisa: Aplicação web com interface desenvolvida em React para facilitar o acesso a orientações, dados ou serviços relevantes ao cidadão
  
-## 👩🏻‍💻 Uso dos dados do *Oceanic Niño Index (ONI)*, fornecidos pelo  <a href="https://www.cpc.ncep.noaa.gov/">NOAA Climate Prediction Center</a>  , para a previsão volume de chuvas e o mapeamento preventivo de áreas sujeitas a eventos climáticos extremos.
+## 👩🏻‍💻 Contexto: Aplicação baseada em Inteligencia Artificial para  Análise de Risco e Autoprotenção
 
-## 👩🏻‍💻 Contexto de Pesquisa.
+## 👩🏻‍💻 Definição do Problema.
 A cidade de São Paulo passou por um intenso processo de crescimento urbano se consolidando como um centro dinâmico de desenvolvimento economico e social, junto com este desenvolvimento tambem intensificou os desafios estruturais que afetam diretamente a qualidade de vida da população. 
 
 O crescimento acelerado da população gerou uma sobrecarga da infraestrutura urbana expondo esta mesma população a um cenário complexo de vulnerabilidades cotidianas, no qual problemas de mobilidade, segurança e gestão ambiental se interligam de maneira intensiva e frequente .
