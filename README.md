@@ -22,7 +22,7 @@
 
 ## 👩🏻‍💻 Linha de Pesquisa: Aplicação web com interface desenvolvida em React para facilitar o acesso a orientações, dados ou serviços relevantes ao cidadão
  
-## 👩🏻‍💻 Contexto: Aplicação baseada em Inteligencia Artificial para  Análise de Risco e Autoprotenção
+## 👩🏻‍💻 Contexto: Sistema de Inteligencia Artificial para Análise de Risco e Autoprotenção (Segurança e Bem Estar Social)
 
 ## 👩🏻‍💻 Definição do Problema.
 A cidade de São Paulo passou por um intenso processo de crescimento urbano se consolidando como um centro dinâmico de desenvolvimento economico e social, junto com este desenvolvimento tambem intensificou os desafios estruturais que afetam diretamente a qualidade de vida da população. 
