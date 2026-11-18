@@ -58,28 +58,29 @@ O aumento da frota de motocicletas na capital acompanha a tendência de crescime
 
 ## 👩🏻‍💻 Aplicação Sistema de Análise de Risco Cidadão.
 
-📌Mapa cidade de São Paulo e Diagrama de Voronoi
+### 📌 Mapa cidade de São Paulo e Diagrama de Voronoi
+
 Nesta etapa utilizamos Python para realização de uma análise espacial (geoprocessamento) dividindo o território do município de São Paulo em células de cobertura usando uma grade hexagonal e um Diagrama de Voronoi, utiliza como base de calculo raio de 0,7 km (700 mts). Cada poligono Voronoi recebe um numero na variavel id_celula, esta variavel é utilizada como base de processamento para calculo de probabilidades e análise de risco com base em informaçoes geográficas de acionamento defesa civil, boletim de ocorrencia ou pontos de alagamento
 <p align="center">
 <img width="657" height="386" alt="01_Algoritmo_voronoi" src="https://github.com/user-attachments/assets/9ed6d94a-515f-473c-8796-d2f8177b6515" /></a>
 </p>
 
-📌 Criar estrutura de dados armazenamento de informações climaticas históricas
-<p align="center">
-<img width="227" height="301" alt="01_2_mapa_voronoi" src="https://github.com/user-attachments/assets/1077b606-9bd7-4ba6-b94b-a17d75069ddf" /></a>
-</p>
+#### Estrutura Espacial Cidade de São Paulo
 
-📌 Criar estrutura de dados armazenamento de informações climaticas históricas
-<p align="center">
-<img width="278" height="386" alt="01_1_mapa_voronoi" src="https://github.com/user-attachments/assets/e31ad8fe-868b-418c-8d50-03aaefbeac1e" /></a>
-</p>
+| 1. Limite Territorial (Município de SP) | 2. Malha Hexagonal / Voronoi Recortada |
+| :---: | :---: |
+| <img width="300" alt="Limite Territorial de São Paulo" src="https://github.com/user-attachments/assets/1077b606-9bd7-4ba6-b94b-a17d75069ddf" /> | <img width="300" alt="Malha Voronoi de São Paulo" src="https://github.com/user-attachments/assets/e31ad8fe-868b-418c-8d50-03aaefbeac1e" /> |
+| *Base cartográfica inicial (`EPSG:31983`)* | *Células espaciais para indexação climática* |
 
-📌 Criar estrutura de dados armazenamento de informações climaticas históricas
+
+### 📌 Spatial Join ~ Tabelas de Ocorrencias Geográficas Vs Mapa Voronoi da Cidade de São Pau,o
+Nesta etapa, executamos o processo de integração de bases de dados geográficos à malha de Voronoi da cidade de São Paulo. Inicialmente, o fluxo importa o arquivo vetorial (shapefile) contendo as divisões das células de Voronoi no sistema de coordenadas métricas e carrega três planilhas Excel com registros pontuais distintos, abrangendo Boletins de Ocorrência, Acidentes de Trânsito e Alagamentos. Em seguida, ocorre a padronização das bases de acionamento da Defesa Civil a partir de três shapefiles de áreas de risco (inundação, pontos de alagamento e deslizamento), dos quais extraímos o ponto central (centroide) de cada polígono, convertemos suas coordenadas e unificamos todos os registros em uma única tabela.
+Como prática de governança e qualidade da informação, também realizamos a higienização dos dados, corrigindo formatações inválidas nas colunas de latitude e longitude, descartando registros sem coordenadas válidas e convertendo essas informações em pontos geográficos. Após o tratamento e a padronização, executamos o cruzamento espacial (spatial join) entre a localização de cada ocorrência e o mapa, identificando exatamente a qual célula de Voronoi cada evento pertence. Por fim, o processo é concluído com a adição de uma coluna identificadora (MACRO_GRUPO) em cada uma das quatro bases tratadas (SEGURANCA_PUBLICA, ACIDENTE_TRANSITO, ALAGAMENTO_VIAS_PUBLICAS e ACIONAMENTO_DEFESA_CIVIL), estruturando o conjunto para facilitar as análises comparativas posteriores.
 <p align="center">
 <img width="805" height="332" alt="02_Analises_Bases_Publicas" src="https://github.com/user-attachments/assets/d2e9db3c-d420-4af5-9a3e-57c8c580012c" /></a>
 </p>
 
-📌 Criar estrutura de dados armazenamento de informações climaticas históricas
+#### Classificação da Origem da Informação
 <p align="center">
 <img width="617" height="314" alt="03_Integração_Dados_Publicos" src="https://github.com/user-attachments/assets/8ee15d28-79de-436a-b66b-9d7ccd5c732e" /></a>
 </p>
