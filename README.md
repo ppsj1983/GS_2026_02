@@ -73,7 +73,7 @@ Nesta etapa utilizamos Python para realização de uma análise espacial (geopro
 | *Base cartográfica inicial (`EPSG:31983`)* | *Células espaciais para indexação climática* |
 
 
-### 📌 Spatial Join ~ Tabelas de Ocorrencias Geográficas Vs Mapa Voronoi da Cidade de São Pau,o
+### 📌 Spatial Join ~ Tabelas de Ocorrencias Geográficas Vs Mapa Voronoi da Cidade de São Paulo
 Nesta etapa, executamos o processo de integração de bases de dados geográficos à malha de Voronoi da cidade de São Paulo. Inicialmente, o fluxo importa o arquivo vetorial (shapefile) contendo as divisões das células de Voronoi no sistema de coordenadas métricas e carrega três planilhas Excel com registros pontuais distintos, abrangendo Boletins de Ocorrência, Acidentes de Trânsito e Alagamentos. Em seguida, ocorre a padronização das bases de acionamento da Defesa Civil a partir de três shapefiles de áreas de risco (inundação, pontos de alagamento e deslizamento), dos quais extraímos o ponto central (centroide) de cada polígono, convertemos suas coordenadas e unificamos todos os registros em uma única tabela.
 Como prática de governança e qualidade da informação, também realizamos a higienização dos dados, corrigindo formatações inválidas nas colunas de latitude e longitude, descartando registros sem coordenadas válidas e convertendo essas informações em pontos geográficos. Após o tratamento e a padronização, executamos o cruzamento espacial (spatial join) entre a localização de cada ocorrência e o mapa, identificando exatamente a qual célula de Voronoi cada evento pertence. Por fim, o processo é concluído com a adição de uma coluna identificadora (MACRO_GRUPO) em cada uma das quatro bases tratadas (SEGURANCA_PUBLICA, ACIDENTE_TRANSITO, ALAGAMENTO_VIAS_PUBLICAS e ACIONAMENTO_DEFESA_CIVIL), estruturando o conjunto para facilitar as análises comparativas posteriores.
 <p align="center">
@@ -102,7 +102,7 @@ Por fim, para mapear o risco em todo o território sem incorrer em vazamento de 
 <img width="589" height="343" alt="05_Acuracia_Modelo_Prev_Seg" src="https://github.com/user-attachments/assets/9c886f31-2616-4efe-aebd-0cf19d7e45b8" /></a>
 </p>
 
-### 📌 Criar estrutura de dados armazenamento de informações climaticas históricas
+### 📌 Integração pesquisa de previsão climatica e pesquisa de probabilidades de risco pessoal
 
 Nesta etapa de inferência e consulta em tempo real, o fluxo integra dados de geolocalização e previsão meteorológica à base histórica de riscos territoriais da cidade de São Paulo. Inicialmente, o script recebe um endereço textual e realiza a **geocodificação** por meio da *Google Maps Geocoding API*, validando a resposta e extraindo as coordenadas geográficas (`LATITUDE` e `LONGITUDE`) junto ao endereço oficial formatado. Com base nessa localização, o sistema consulta a **API Open-Meteo** para obter a previsão horária dos próximos 7 dias, coletando métricas de temperatura, volume de precipitação (mm) e probabilidade de chuva.
 
@@ -115,7 +115,13 @@ Por fim, a localização pesquisada é convertida em um ponto geográfico para r
 <img width="719" height="355" alt="06_Integração_GOOGLE_Pesquisa_Geografica" src="https://github.com/user-attachments/assets/2e16fadf-7590-449e-970f-85a9adcea486" /></a>
 </p>
 
-📌 Criar estrutura de dados armazenamento de informações climaticas históricas
+#### Front End ~ Análise de Risco Pessoal
+Este script executa a etapa inicial de geolocalização por endereço. Por meio dos dados obtidos via API do Google, é possível mapear a posição do cliente e cruzar essas informações com os dados de previsão climática, conforme apresentado a seguir.
+
+
+### 🧠 API Analise de Risco
+
+
 <p align="center">
 <img width="940" height="492" alt="07_API_Analise_Risco" src="https://github.com/user-attachments/assets/1e0634d1-5a93-45d9-8777-529f8bb08a3f" /></a>
 </p>
