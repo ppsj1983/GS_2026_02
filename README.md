@@ -102,7 +102,15 @@ Por fim, para mapear o risco em todo o território sem incorrer em vazamento de 
 <img width="589" height="343" alt="05_Acuracia_Modelo_Prev_Seg" src="https://github.com/user-attachments/assets/9c886f31-2616-4efe-aebd-0cf19d7e45b8" /></a>
 </p>
 
-📌 Criar estrutura de dados armazenamento de informações climaticas históricas
+### 📌 Criar estrutura de dados armazenamento de informações climaticas históricas
+
+Nesta etapa de inferência e consulta em tempo real, o fluxo integra dados de geolocalização e previsão meteorológica à base histórica de riscos territoriais da cidade de São Paulo. Inicialmente, o script recebe um endereço textual e realiza a **geocodificação** por meio da *Google Maps Geocoding API*, validando a resposta e extraindo as coordenadas geográficas (`LATITUDE` e `LONGITUDE`) junto ao endereço oficial formatado. Com base nessa localização, o sistema consulta a **API Open-Meteo** para obter a previsão horária dos próximos 7 dias, coletando métricas de temperatura, volume de precipitação (mm) e probabilidade de chuva.
+
+Em seguida, os dados meteorológicos são tratados e segmentados por data, dia da semana (`seg` a `dom`) e faixas de horário (`MADRUGADA`, `MANHA`, `TARDE` e `NOITE`). O script filtra especificamente a data e o período consultados pelo usuário e consolida os indicadores climáticos, calculando a temperatura média (`TEMP_MEDIA`), o volume acumulado de chuva (`CHUVA_MM`) e a probabilidade média de precipitação (`PROB_CHUVA`).
+
+Por fim, a localização pesquisada é convertida em um ponto geográfico para realizar o cruzamento espacial (*Spatial Join*) com a malha de Voronoi (`mapa_areas`), identificando a célula territorial correspondente (`id_celula`). Essa identificação é cruzada com a base consolidada de probabilidades históricas (`probabilidades_consolidadas`) por célula, dia da semana e período, estruturando uma tabela dinâmica final (*pivot table*) que apresenta o resumo climático lado a lado com o risco individual de cada macrogrupo de ocorrência e o índice consolidado de risco do dia (`RISCO_DIA`).
+
+
 <p align="center">
 <img width="719" height="355" alt="06_Integração_GOOGLE_Pesquisa_Geografica" src="https://github.com/user-attachments/assets/2e16fadf-7590-449e-970f-85a9adcea486" /></a>
 </p>
