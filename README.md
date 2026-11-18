@@ -85,12 +85,19 @@ Como prática de governança e qualidade da informação, também realizamos a h
 <img width="617" height="314" alt="03_Integração_Dados_Publicos" src="https://github.com/user-attachments/assets/8ee15d28-79de-436a-b66b-9d7ccd5c732e" /></a>
 </p>
 
-📌 Criar estrutura de dados armazenamento de informações climaticas históricas
+### 🧠 Modelagem Preditiva e Avaliação de Risco (MLP)
+
+Nesta etapa do pipeline, implementamos, validamos e aplicamos uma **rede neural artificial do tipo *Multilayer Perceptron* (MLP)** para estimar a probabilidade de ocorrência de eventos críticos em cada célula de Voronoi do mapa da cidade de São Paulo. Inicialmente, o fluxo garante a reprodutibilidade dos experimentos fixando as sementes aleatórias e seleciona as quatro variáveis preditoras consolidadas (`ACIDENTE_TRANSITO`, `ALAGAMENTO_VIAS_PUBLICAS`, `DEFESA_CIVIL` e `SEGURANCA_PUBLICA`), tratando eventuais valores ausentes. Na ausência de uma base histórica rotulada de eventos consolidados, o script gera uma variável-alvo sintética binária combinando as probabilidades individuais de cada indicador de risco.
+
+Para a arquitetura do modelo, construímos uma rede neural tabular composta por camadas densas com ativação *ReLU*, regularização por *Dropout* para prevenir o sobreajuste (*overfitting*) e uma camada de saída *sigmoid* que retorna a probabilidade contínua de risco. Como boas práticas de governança em *Machine Learning*, o fluxo realiza inicialmente uma validação rigorosa com divisão estratificada (*Hold-out* de 70% para treino e 30% para teste), aplicando padronização de escala (`StandardScaler`), balanceamento automático de pesos para lidar com a raridade dos eventos críticos e parada antecipada (*Early Stopping*), gerando métricas de desempenho como **Acurácia** e **ROC-AUC**.
+
+Por fim, para mapear o risco em todo o território sem incorrer em vazamento de dados (*data leakage*), o script executa uma validação cruzada estratificada de 5 partições (*Stratified K-Fold* com previsões *Out-of-Fold*). Dessa forma, a probabilidade estimada para cada célula do mapa é gerada estritamente por um modelo que não teve acesso àquela região durante o treinamento, consolidando no DataFrame final (`risco_mapa`) a probabilidade teórica esperada (`PROB_EXATA_PCT`), a probabilidade prevista pela rede neural (`PROB_MLP_PCT`) e a classificação binária de risco (`PREVISAO_CLASSE_MLP`).
+
 <p align="center">
 <img width="619" height="357" alt="04_Aplicação_TensorFlow_RedesNeurais" src="https://github.com/user-attachments/assets/2bc19527-fbc2-4068-8ea9-03dec0e6a089" /></a>
 </p>
 
-📌 Criar estrutura de dados armazenamento de informações climaticas históricas
+#### Teste Acuracia  *Multilayer Perceptron* (MLP)**
 <p align="center">
 <img width="589" height="343" alt="05_Acuracia_Modelo_Prev_Seg" src="https://github.com/user-attachments/assets/9c886f31-2616-4efe-aebd-0cf19d7e45b8" /></a>
 </p>
