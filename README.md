@@ -54,63 +54,82 @@ Conforme G1 (2026) Mortes no trânsito da cidade de SP aumentam, e motociclistas
 Capital paulista registrou 782 mortes no trânsito entre janeiro e setembro de 2026; especialistas apontam imprudência e falta de fiscalização entre os fatores que contribuem para a alta.
 O aumento da frota de motocicletas na capital acompanha a tendência de crescimento das mortes. Em 2026, a cidade já tinha cerca de 1,17 milhão de motos em circulação, porem o problema se agrava em vias com caracteristicas especificas, Mutal 15 (2026) avalia que Moradores apontam riscos no trânsito nas vias com mais acidentes em SP, das 10 vias com maiores índices de mortes no trânsito em São Paulo, oito passam por distritos periféricos, a proporção de casos que levaram à morte (em relação ao total de acidentes) foi maior nas subprefeituras mais distantes do centro, como Perus, Pirituba e Campo Limpo, do que nas regiões centrais. Por outro lado, as ocorrências não fatais se destacam nas subprefeituras da Sé, no centro, na Penha e na Mooca, ambas na zona leste, e, como exceção, na Capela do Socorro, na zona sul.
 
-- ...
+## 👩🏻‍💻 Proposta Aplicação Sistemica.
+
+## 👩🏻‍💻 Aplicação Sistema de Análise de Risco Cidadão.
+
+📌Mapa cidade de São Paulo e Diagrama de Voronoi
+Nesta etapa utilizamos Python para realização de uma análise espacial (geoprocessamento) dividindo o território do município de São Paulo em células de cobertura usando uma grade hexagonal e um Diagrama de Voronoi, utiliza como base de calculo raio de 0,7 km (700 mts). Cada poligono Voronoi recebe um numero na variavel id_celula, esta variavel é utilizada como base de processamento para calculo de probabilidades e análise de risco com base em informaçoes geográficas de acionamento defesa civil, boletim de ocorrencia ou pontos de alagamento
 <p align="center">
 <img width="657" height="386" alt="01_Algoritmo_voronoi" src="https://github.com/user-attachments/assets/9ed6d94a-515f-473c-8796-d2f8177b6515" /></a>
 </p>
 
+📌 Criar estrutura de dados armazenamento de informações climaticas históricas
 <p align="center">
 <img width="227" height="301" alt="01_2_mapa_voronoi" src="https://github.com/user-attachments/assets/1077b606-9bd7-4ba6-b94b-a17d75069ddf" /></a>
 </p>
 
+📌 Criar estrutura de dados armazenamento de informações climaticas históricas
 <p align="center">
 <img width="278" height="386" alt="01_1_mapa_voronoi" src="https://github.com/user-attachments/assets/e31ad8fe-868b-418c-8d50-03aaefbeac1e" /></a>
 </p>
 
+📌 Criar estrutura de dados armazenamento de informações climaticas históricas
 <p align="center">
 <img width="805" height="332" alt="02_Analises_Bases_Publicas" src="https://github.com/user-attachments/assets/d2e9db3c-d420-4af5-9a3e-57c8c580012c" /></a>
 </p>
 
+📌 Criar estrutura de dados armazenamento de informações climaticas históricas
 <p align="center">
 <img width="617" height="314" alt="03_Integração_Dados_Publicos" src="https://github.com/user-attachments/assets/8ee15d28-79de-436a-b66b-9d7ccd5c732e" /></a>
 </p>
 
+📌 Criar estrutura de dados armazenamento de informações climaticas históricas
 <p align="center">
 <img width="619" height="357" alt="04_Aplicação_TensorFlow_RedesNeurais" src="https://github.com/user-attachments/assets/2bc19527-fbc2-4068-8ea9-03dec0e6a089" /></a>
 </p>
 
+📌 Criar estrutura de dados armazenamento de informações climaticas históricas
 <p align="center">
 <img width="589" height="343" alt="05_Acuracia_Modelo_Prev_Seg" src="https://github.com/user-attachments/assets/9c886f31-2616-4efe-aebd-0cf19d7e45b8" /></a>
 </p>
 
+📌 Criar estrutura de dados armazenamento de informações climaticas históricas
 <p align="center">
 <img width="719" height="355" alt="06_Integração_GOOGLE_Pesquisa_Geografica" src="https://github.com/user-attachments/assets/2e16fadf-7590-449e-970f-85a9adcea486" /></a>
 </p>
 
+📌 Criar estrutura de dados armazenamento de informações climaticas históricas
 <p align="center">
 <img width="940" height="492" alt="07_API_Analise_Risco" src="https://github.com/user-attachments/assets/1e0634d1-5a93-45d9-8777-529f8bb08a3f" /></a>
 </p>
 
+📌 Criar estrutura de dados armazenamento de informações climaticas históricas
 <p align="center">
 <img width="467" height="305" alt="08_Teste_API" src="https://github.com/user-attachments/assets/0b1f4f19-3635-47bd-b53a-91ed654bd628" /></a>
 </p>
 
+📌 Criar estrutura de dados armazenamento de informações climaticas históricas
 <p align="center">
 <img width="763" height="392" alt="09_Result_API" src="https://github.com/user-attachments/assets/b9b2f1d6-bb75-4fca-99e6-46cda612c6bc" /></a>
 </p>
 
+📌 Criar estrutura de dados armazenamento de informações climaticas históricas
 <p align="center">
 <img width="934" height="242" alt="10_Front_End_Pesquisa" src="https://github.com/user-attachments/assets/24ac5000-0520-4c1a-abba-ac45a33d558d" /></a>
 </p>
 
+📌 Criar estrutura de dados armazenamento de informações climaticas históricas
 <p align="center">
 <img width="898" height="230" alt="11_Front_End_Resultado" src="https://github.com/user-attachments/assets/513d68b9-ae7b-4f5d-83b8-6f15fa0189c0" /></a>
 </p>
 
+📌 Criar estrutura de dados armazenamento de informações climaticas históricas
 <p align="center">
 <img width="848" height="406" alt="12_Front_End_Geografia" src="https://github.com/user-attachments/assets/c68f99d4-0e32-4d0b-bfd1-9957723880fb" /></a>
 </p>
 
+📌 Criar estrutura de dados armazenamento de informações climaticas históricas
 <p align="center">
 <img width="824" height="398" alt="13_Front_End_Inf_Publica" src="https://github.com/user-attachments/assets/46d4900d-e1c4-4bb6-84dc-e675f6e9af32" /></a>
 </p>
