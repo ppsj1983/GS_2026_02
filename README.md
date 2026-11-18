@@ -56,7 +56,63 @@ O aumento da frota de motocicletas na capital acompanha a tendência de crescime
 
 - ...
 <p align="center">
-<img width="785" height="480" alt="Image" src="https://github.com/user-attachments/assets/2b081288-cead-489a-8ddc-b60f85c65ff5" /></a>
+<img width="657" height="386" alt="01_Algoritmo_voronoi" src="https://github.com/user-attachments/assets/9ed6d94a-515f-473c-8796-d2f8177b6515" /></a>
+</p>
+
+<p align="center">
+<img width="227" height="301" alt="01_2_mapa_voronoi" src="https://github.com/user-attachments/assets/1077b606-9bd7-4ba6-b94b-a17d75069ddf" /></a>
+</p>
+
+<p align="center">
+<img width="278" height="386" alt="01_1_mapa_voronoi" src="https://github.com/user-attachments/assets/e31ad8fe-868b-418c-8d50-03aaefbeac1e" /></a>
+</p>
+
+<p align="center">
+<img width="805" height="332" alt="02_Analises_Bases_Publicas" src="https://github.com/user-attachments/assets/d2e9db3c-d420-4af5-9a3e-57c8c580012c" /></a>
+</p>
+
+<p align="center">
+<img width="617" height="314" alt="03_Integração_Dados_Publicos" src="https://github.com/user-attachments/assets/8ee15d28-79de-436a-b66b-9d7ccd5c732e" /></a>
+</p>
+
+<p align="center">
+<img width="619" height="357" alt="04_Aplicação_TensorFlow_RedesNeurais" src="https://github.com/user-attachments/assets/2bc19527-fbc2-4068-8ea9-03dec0e6a089" /></a>
+</p>
+
+<p align="center">
+<img width="589" height="343" alt="05_Acuracia_Modelo_Prev_Seg" src="https://github.com/user-attachments/assets/9c886f31-2616-4efe-aebd-0cf19d7e45b8" /></a>
+</p>
+
+<p align="center">
+<img width="719" height="355" alt="06_Integração_GOOGLE_Pesquisa_Geografica" src="https://github.com/user-attachments/assets/2e16fadf-7590-449e-970f-85a9adcea486" /></a>
+</p>
+
+<p align="center">
+<img width="940" height="492" alt="07_API_Analise_Risco" src="https://github.com/user-attachments/assets/1e0634d1-5a93-45d9-8777-529f8bb08a3f" /></a>
+</p>
+
+<p align="center">
+<img width="467" height="305" alt="08_Teste_API" src="https://github.com/user-attachments/assets/0b1f4f19-3635-47bd-b53a-91ed654bd628" /></a>
+</p>
+
+<p align="center">
+<img width="763" height="392" alt="09_Result_API" src="https://github.com/user-attachments/assets/b9b2f1d6-bb75-4fca-99e6-46cda612c6bc" /></a>
+</p>
+
+<p align="center">
+<img width="934" height="242" alt="10_Front_End_Pesquisa" src="https://github.com/user-attachments/assets/24ac5000-0520-4c1a-abba-ac45a33d558d" /></a>
+</p>
+
+<p align="center">
+<img width="898" height="230" alt="11_Front_End_Resultado" src="https://github.com/user-attachments/assets/513d68b9-ae7b-4f5d-83b8-6f15fa0189c0" /></a>
+</p>
+
+<p align="center">
+<img width="848" height="406" alt="12_Front_End_Geografia" src="https://github.com/user-attachments/assets/c68f99d4-0e32-4d0b-bfd1-9957723880fb" /></a>
+</p>
+
+<p align="center">
+<img width="824" height="398" alt="13_Front_End_Inf_Publica" src="https://github.com/user-attachments/assets/46d4900d-e1c4-4bb6-84dc-e675f6e9af32" /></a>
 </p>
 ---
 
@@ -72,160 +128,3 @@ Este trabalho tem como objetivo:
 
 ---
 
-## 🧠 Fontes Históricas de Dados Climatológicos
-
-Neste trabalho utilizamos duas fontes principais de dados, sendo
-
-<a href="https://bdmep.inmet.gov.br/">Banco de Dados Meteorológicos do INMET </a>:  Cadastro de estações meteorológicas com localização geográfica e histórico de dados climatológicos desde o ano 2000.
-
-<a href="https://www.cpc.ncep.noaa.gov/">NOAA Climate Prediction Center</a>: Monitoramento e medições mensais da temperatura do oceano Pacífico.
-```bash
-📂 Global Solution 1º Semestre 2026
-│
-├── 📂 Dados INMET
-│   ├── 📂 DADOS CONSOLIDADOS BRUTOS (Informações de estações metereologicas do Brasil, dados desde 2000, aproximadamente 170 mil registros armazenados)
-│   │   ├── 📂 tab: DADOS_CLIMA_GS_2026_S1 
-│   ├── 📂 DADOS TRABALHADOS (limpeza de registros duplicados, valores nulos ou outliers)
-│   |   ├── 📂 tab: HISTORICO_CHUVA
-│   |   ├── 📂 tab: HISTORICO_TEMPERATURA
-│   |   ├── 📂 tab: HISTORICO_UMIDADE
-│   |   ├── 📂 tab: HISTORICO_VENTO
-│   └── 📂 CADASTRO DE ESTAÇÕES METEREOLOGICAS (Informações de todas as estações metereologicas ativas, posição geografica, altitude e distancia para a faixa do Equador)
-│   |   ├── 📂 tab: DF_CADASTRO_ESTACOES
-├── 📂 Dados NOAA (Monitoramento e medições mensais da temperatura do oceano Pacífico)
-│   ├── 📂 tab: DADOS_NOAA
-```
-## 🧠 Tabelas e Banco de Dados
----
-
-Imagem abaixo demonstra a estrutura do banco de dados, neste projeto, utilizamos 6 tabelas
-<p align="center">
-<img width="318" height="266" alt="Image" src="https://github.com/user-attachments/assets/50838172-38b4-49d8-b5fb-3282a252fb33" /></a>
-</p>
-
-*DADOS_CLIMA_GS_206_S1:* Estrutura contendo dados climáticos brutos extraídos diretamente das bases do INMET. Serve como fonte primária para as análises de monitoramento.
-
-<p align="center">
-<img width="753" height="510" alt="Image" src="https://github.com/user-attachments/assets/6dd46d1a-4be1-40d5-b001-818982be1484" /></a>
-</p>
-
-*DF_CADASTRO_ESTACOES:* Catálogo estruturado de 597 estações meteorológicas de medição. Inclui metadados como posição geográfica, altitude e distância em relação à Linha do Equador.
-
-<p align="center">
-<img width="722" height="292" alt="Image" src="https://github.com/user-attachments/assets/fdf7b7a3-376b-4462-8c0a-487f97f38b3c" /></a>
-</p>
-
-<p align="center">
-<img width="1295" height="555" alt="Image" src="https://github.com/user-attachments/assets/d7df3923-8161-48aa-be53-6944dc8a4525" /></a>
-</p>
-
-*DADOS_NOAA:* Consolidação das temperaturas da superfície do oceano Pacífico, utilizada para a identificação e classificação de períodos e ciclos climáticos (El Niño, La Niña e Neutro).
-
-<p align="center">
-<img width="769" height="263" alt="Image" src="https://github.com/user-attachments/assets/87ea4157-f3cf-4a95-b726-9c8b2bac5177" /></a>
-</p>
-
-*HISTORICO_CHUVA:* Série histórica de precipitação climática (em milímetros), com agregação mensal e estruturada pela coluna ANO_MES.
-
-*HISTORICO_TEMPERATURA:* Série histórica de temperaturas, apresentada em médias mensais, categorizada e identificada pela coluna ANO_MES.
-
-*HISTORICO_UMIDADE:* Série histórica de Umidade Relativa do Ar, apresentada em médias mensais e estruturada pela coluna ANO_MES.
-
-*HISTORICO_VENTOS:* Série histórica de medições de vento, com visão de média mensal e estruturada pela coluna ANO_MES.
-
-<p align="center">
-<img width="254" height="428" alt="Image" src="https://github.com/user-attachments/assets/24ddeb23-cb5c-47f3-8906-9227ecda07e8" /></a>
-</p>
-
-
-## 🧠 Processamento de Informações
----
-No arquivo *DADOS_INMET_NOAA.ipynb* realizamos todo o processamento das informações e atualização das tabelas, durante cada etapa, inserimos testes para monitoramento de cada passo, conforme demonstrado a seguir
-
-*DADOS_CLIMA_GS_206_S1:* Processamento de arquivos CSV's extraidos de <a href="https://bdmep.inmet.gov.br/">Banco de Dados Meteorológicos do INMET </a>, nesta etapa foram processados 10046
-
-<p align="center">
-<img width="766" height="673" alt="Image" src="https://github.com/user-attachments/assets/e3026f43-d615-45bf-90d5-a082cb90e71d" /></a>
-</p>
-
-Após processamento dos CSV's, criamos uma tabela auxiliar para armazenar todas as informações climatologicas, com resumos obtidos a partir da tabela *DADOS_CLIMA_GS_206_S1*
-<p align="center">
-<img width="850" height="784" alt="Image" src="https://github.com/user-attachments/assets/79e7c99f-0800-4c21-a956-7c6cf85cfef9" /></a>
-</p>
-
-*DF_CADASTRO_ESTACOES:* Tambem inserimos uma etapa para processamento das estações, gerando um resumo com registros cadastrais de todos os terminais metereologicos.
-<p align="center">
-<img width="996" height="631" alt="Image" src="https://github.com/user-attachments/assets/46b21e77-98c7-4aa4-9242-a842908d3085" /></a>
-</p>
-Etapa de carga da tabela DF_CADASTRO_ESTACOES no servidor FIAP
-<p align="center">
-<img width="861" height="691" alt="Image" src="https://github.com/user-attachments/assets/315e3629-0027-4cfc-b93a-a4782f40555a" /></a>
-</p>
-
-*DADOS_NOAA:* Etapa de importação de dados do site <a href="https://www.cpc.ncep.noaa.gov/">NOAA Climate Prediction Center</a>, processamento das informações e armazenamento no servidor FIAP
-<p align="center">
-<img width="785" height="482" alt="Image" src="https://github.com/user-attachments/assets/c3b912c2-7206-4c98-9683-d7f1410f3061" /></a>
-</p>
-
-As tabelas *HISTORICO_CHUVA, HISTORICO_TEMPERATURA, HISTORICO_UMIDADE e HISTORICO_VENTOS*, tambem são processadas individualmentes, reduzindo a quantidade de registros para utilização nos modelos preditivos
-<p align="center">
-<img width="797" height="640" alt="Image" src="https://github.com/user-attachments/assets/588c069e-95fb-4c96-b148-8bbebd15c6f7" /></a>
-</p>
-
-## 🧠 Algoritmo de Machine Learning
-
-Utilizamos o algoritmo Random Forest Classifier para a realização de previsões climatológicas. Este método foi aplicado para calcular as previsões climáticas considerando variáveis contínuas (Volume de Chuvas, Temperatura, Velocidade do Vento e Humidade) e, complementarmente, para a modelação binomial da probabilidade de ocorrência de chuva para um determinado mês.
-
-<p align="center">
-<img width="1074" height="787" alt="Image" src="https://github.com/user-attachments/assets/82b656f4-c084-4f37-88c3-ea366f0615a9" /></a>
-</p>
-
-## 🧠 Painel Streamlit
-
-No painel Streamlit foi adicionando um menu para seleção dos parametros simulação climatologica 
-
-<p align="center">
-<img width="948" height="440" alt="Image" src="https://github.com/user-attachments/assets/9c1eef19-142e-4d12-bdb6-3e62dca43b0f" /></a>
-</p>
-
-
-Tambem adicionamos uma função para exportação de mapas html
-<p align="center">
-<img width="1149" height="689" alt="Image" src="https://github.com/user-attachments/assets/c593f238-9d75-4764-988e-13048936e898" /></a>
-</p>
-
-
-
-## 🧠 Resultados Obtidos 
-
-No teste de validação, a taxa de acerto global do algoritmo fixou-se em 77,75% para a previsão do cenário binomial de chuva, comprovando a robustez do modelo preditivo adaptado
-
-<p align="center">
-<img width="1163" height="257" alt="Image" src="https://github.com/user-attachments/assets/fbcdbed2-582a-42c8-963b-4342f30fc88a" /></a>
-</p>
-
-A análise climática baseada nos dados do El Niño para junho confirma que a região Sul do Brasil concentra os maiores índices pluviométricos. Importa destacar que as projeções do algoritmo estão alinhadas e convergem com os comportamentos históricos de precipitação locais.
-
-<p align="center">
-<img width="1377" height="669" alt="Image" src="https://github.com/user-attachments/assets/83657562-928d-4de3-8229-8bdcafe06809" /></a>
-</p>
-
-Através da análise da distribuição espacial do mapa, evidencia-se uma elevada concentração pluviométrica distribuída por todos os estados da região Sul.
-
-<p align="center">
-<img width="1193" height="876" alt="Image" src="https://github.com/user-attachments/assets/87818c2f-1d79-43a6-8e26-969ac23931e4" /></a>
-</p>
-
-A ferramenta geoespacial permite a análise simultânea de três variáveis preditivas: o volume estimado de precipitação (mm), a temperatura (°C) e a probabilidade percentual de ocorrência de chuva
-
-<p align="center">
-<img width="1413" height="857" alt="Image" src="https://github.com/user-attachments/assets/c989567d-36a7-4c2d-a6b4-855e6f27d8b6" /></a>
-</p>
-
-
-
-
-
-
-
-https://conexaosafra.com/
