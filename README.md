@@ -16,7 +16,7 @@
 - <a href="https://youtu.be/6IrO9j_jJ9E">Video Apresentação - YOUTUBE</a>
 
 ## 👨‍🎓 Git Hub: 
-- <a href="https://github.com/ppsj1983/GS_2026_01">GS 2026 1º Semestre</a>
+- <a href="https://github.com/ppsj1983/GS_2026_02">GS 2026 2º Semestre</a>
 
 ## 👩🏻‍💻 Como os conhecimentos de Inteligência Artificial e das disciplinas estudadas até a Fase 3 do segundo ano podem contribuir para solucionar um problema real e melhorar a vida das pessoas?
 
