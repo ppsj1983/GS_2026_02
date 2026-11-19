@@ -39,20 +39,67 @@ Este trabalho tem como propósito desenvolver um sistema de autoproteção indiv
 
 ## 👩🏻‍💻 Referencia de Pesquisa.
 
-Segurança Publica
-Conforme dados da Agência de Notícias do Governo do Estado de São Paulo (2026), o estado registrou em 2025 os menores índices históricos para roubos, homicídios e latrocínios, mantendo também uma queda gradual nos roubos de carga desde 2023. Apesar dessa retração, os volumes absolutos permanecem elevados, totalizando 549 mil furtos e 157 mil roubos em 2026. Os resultados positivos são atribuídos à atuação integrada das polícias Civil e Militar e ao emprego de tecnologias de vigilância e inteligência, como o sistema Muralha Paulista.
-No âmbito da capital paulista, levantamento da CBN São Paulo (2026) indica que, embora a maior parte dos bairros tenha acompanhado a tendência estadual de queda, determinadas localidades da Zona Sul apresentaram crescimento nos índices criminais. No Parque Santo Antônio, os registros de roubo aumentaram 21,76% entre 2024 e 2025, passando de 2.132 para 2.596 ocorrências. Esse cenário impacta diretamente a percepção de segurança da população local, evidenciada em relatos de moradores que apontam a baixa presença de policiamento ostensivo e a necessidade de alterar hábitos cotidianos, como evitar o uso de aparelhos celulares nas proximidades de estações de metrô, devido à sensação constante de vulnerabilidade.
-Portanto, os dados demonstram que a redução geral dos indicadores estaduais não ocorre de maneira homogênea no território urbano, impondo ao poder público o desafio de focalizar políticas de segurança e ações preventivas em regiões periféricas e socioeconômica e estruturalmente vulneráveis.
+# 📊 Panorama Urbano de São Paulo: Segurança, Clima e Mobilidade
 
-Clima e Eventos Extermos
-Conforme a iniciativa MCR2030 (ONU, 2009), as ameaças naturais afetam os municípios de diferentes maneiras. No entanto, o potencial de desastre atinge todas as cidades, dependendo diretamente da forma como as autoridades lidam com o crescimento desordenado, a rápida urbanização e a degradação ambiental.
-Deslizamentos: O aumento de construções inadequadas ou improvisadas em encostas, penhascos ou nascentes de rios em vales montanhosos, aliado à falta de infraestrutura de proteção e drenagem, expõe cada vez mais pessoas a riscos graves. Esses deslizamentos são frequentemente provocados por chuvas intensas, saturação do solo ou atividade sísmica.
-Inundações e Enchentes: Esses fenômenos tornam-se ameaças urbanas cada vez mais frequentes devido à impermeabilização do solo, já que superfícies compactadas e concretadas perdem a capacidade de absorver a água da chuva. O problema também se agrava com obras de engenharia que desviam o curso natural dos rios e com a ausência de sistemas de drenagem eficientes. Além disso, habitações instaladas em margens de rios ou próximas a deltas configuram-se como áreas de alto risco.
+Análise contextual sobre os principais desafios estruturais e socioambientais da capital e do estado de São Paulo, abordando indicadores de criminalidade, vulnerabilidade climática e segurança viária.
 
-Acidentes de Transito
-Conforme G1 (2026) Mortes no trânsito da cidade de SP aumentam, e motociclistas são quase metade das vítimas
-Capital paulista registrou 782 mortes no trânsito entre janeiro e setembro de 2026; especialistas apontam imprudência e falta de fiscalização entre os fatores que contribuem para a alta.
-O aumento da frota de motocicletas na capital acompanha a tendência de crescimento das mortes. Em 2026, a cidade já tinha cerca de 1,17 milhão de motos em circulação, porem o problema se agrava em vias com caracteristicas especificas, Mutal 15 (2026) avalia que Moradores apontam riscos no trânsito nas vias com mais acidentes em SP, das 10 vias com maiores índices de mortes no trânsito em São Paulo, oito passam por distritos periféricos, a proporção de casos que levaram à morte (em relação ao total de acidentes) foi maior nas subprefeituras mais distantes do centro, como Perus, Pirituba e Campo Limpo, do que nas regiões centrais. Por outro lado, as ocorrências não fatais se destacam nas subprefeituras da Sé, no centro, na Penha e na Mooca, ambas na zona leste, e, como exceção, na Capela do Socorro, na zona sul.
+---
+
+## 🛡️ Segurança Pública
+
+Conforme dados da **Agência de Notícias do Governo do Estado de São Paulo (2026)**, o estado registrou, em 2025, os menores índices históricos para roubos, homicídios e latrocínios, mantendo também uma queda gradual nos roubos de carga desde 2023. Apesar dessa retração, os volumes absolutos permanecem elevados:
+
+* **549 mil** furtos registrados em 2026;
+* **157 mil** roubos registrados no mesmo período.
+
+Os resultados positivos são atribuídos à atuação integrada das polícias Civil e Militar e ao emprego de tecnologias de vigilância e inteligência, como o sistema **Muralha Paulista**.
+
+### 📍 Recorte na Capital Paulista
+Um levantamento da **CBN São Paulo (2026)** indica que, embora a maior parte dos bairros tenha acompanhado a tendência estadual de queda, determinadas localidades da **Zona Sul** apresentaram crescimento nos índices criminais:
+
+* **Parque Santo Antônio:** Os registros de roubo aumentaram **21,76%** entre 2024 e 2025 (passando de 2.132 para 2.596 ocorrências).
+
+Esse cenário impacta diretamente a percepção de segurança da população local, evidenciada em relatos de moradores que apontam a baixa presença de policiamento ostensivo e a necessidade de alterar hábitos cotidianos — como evitar o uso de aparelhos celulares nas proximidades de estações de metrô — devido à sensação constante de vulnerabilidade.
+
+> **Síntese:** Os dados demonstram que a redução geral dos indicadores estaduais não ocorre de maneira homogênea no território urbano, impondo ao poder público o desafio de focalizar políticas de segurança e ações preventivas em regiões periféricas e socioeconômica e estruturalmente vulneráveis.
+
+---
+
+## 🌦️ Clima e Eventos Extremos
+
+Conforme a iniciativa **MCR2030 (ONU, 2009)**, as ameaças naturais afetam os municípios de diferentes maneiras. No entanto, o potencial de desastre atinge todas as cidades, dependendo diretamente da forma como as autoridades lidam com o crescimento desordenado, a rápida urbanização e a degradação ambiental.
+
+* **⛰️ Deslizamentos:** O aumento de construções inadequadas ou improvisadas em encostas, penhascos ou nascentes de rios em vales montanhosos, aliado à falta de infraestrutura de proteção e drenagem, expõe cada vez mais pessoas a riscos graves. Esses deslizamentos são frequentemente provocados por chuvas intensas, saturação do solo ou atividade sísmica.
+* **🌊 Inundações e Enchentes:** Esses fenômenos tornam-se ameaças urbanas cada vez mais frequentes devido à impermeabilização do solo, já que superfícies compactadas e concretadas perdem a capacidade de absorver a água da chuva. O problema também se agrava com obras de engenharia que desviam o curso natural dos rios e com a ausência de sistemas de drenagem eficientes. Além disso, habitações instaladas em margens de rios ou próximas a deltas configuram-se como áreas de alto risco.
+
+---
+
+## 🚦 Acidentes de Trânsito
+
+Conforme reportagem do portal **G1 (2026)**, as mortes no trânsito da cidade de São Paulo aumentaram, e os motociclistas já representam quase metade das vítimas. 
+
+* **782 óbitos** no trânsito registrados na capital entre janeiro e setembro de 2026;
+* **1,17 milhão de motos** em circulação na cidade no mesmo ano.
+
+Especialistas apontam a imprudência e a falta de fiscalização como os principais fatores para essa alta, que acompanha o crescimento acelerado da frota de motocicletas.
+
+### 🗺️ Desigualdade Territorial na Segurança Viária
+Segundo levantamento da **Agência Mural (2026)**, o problema se agrava em vias com características específicas nas bordas da cidade:
+
+* **Vias letais:** Das 10 avenidas e ruas com maiores índices de mortes no trânsito em São Paulo, **8 passam por distritos periféricos**.
+* **Maior letalidade (casos fatais):** A proporção de acidentes que levaram à morte foi maior nas subprefeituras mais distantes do centro — como **Perus, Pirituba e Campo Limpo** — do que nas regiões centrais.
+* **Ocorrências não fatais:** Destacam-se nas subprefeituras da **Sé** (Centro), **Penha** e **Mooca** (Zona Leste) e, como exceção nas áreas mais afastadas, na **Capela do Socorro** (Zona Sul).
+
+---
+
+## 📚 Fontes e Referências
+
+* **Agência de Notícias do Governo do Estado de São Paulo (2026)** — Indicadores criminais estaduais e sistema Muralha Paulista.
+* **CBN São Paulo (2026)** — Levantamento de criminalidade por bairros na capital paulista.
+* **ONU / Iniciativa MCR2030 (2009)** — *Construindo Cidades Resilientes: Minha Cidade Está se Preparando*.
+* **Portal G1 (2026)** — *Mortes no trânsito da cidade de SP aumentam, e motociclistas são quase metade das vítimas*.
+* **Agência Mural (2026)** — *Moradores apontam riscos no trânsito nas vias com mais acidentes em SP*.
+
 
 ## 👩🏻‍💻 Proposta Aplicação Sistemica.
 ## Funcionalidades
@@ -123,9 +170,6 @@ analise-risco-react/
 
 
 ### 2. Backend 
-
-Arquivo `backend/.env` com os caminhos e credenciais necessários. Exemplo de `.env.example`:
-
 ```dotenv
 GOOGLE_MAPS_API_KEY=
 VORONOI_SHP=data/celulas_voronoi_utm.shp
@@ -133,8 +177,6 @@ PROBABILIDADES_CSV=data/probabilidades_consolidadas.csv
 MAPA_FINAL_GEOJSON=data/mapa_final.geojson
 CORS_ORIGINS=http://localhost:5173
 ```
-> Os nomes das variáveis devem corresponder aos utilizados no código. Nunca publique o `.env` real.
-
 ### 3. Frontend (novo terminal)
 
 Acesso por interface em **http://localhost:5173**.
@@ -155,7 +197,7 @@ Exemplo de requisição para `POST /api/consulta`:
 
 ```json
 {
-  "endereco": "RUA QUERANDIES 16 PIRITUBA, SAO PAULO",
+  "endereco": "RUA TESTE",
   "data": "2026-11-15",
   "periodo": "TARDE"
 }
@@ -308,7 +350,7 @@ Permite a exploração espacial das probabilidades de risco por célula geográf
 
 ---
 
-## 🎯 Objetivo
+## 🎯 Conclusão
 
 Este trabalho tem como objetivo:
 
