@@ -119,19 +119,36 @@ Por fim, a localização pesquisada é convertida em um ponto geográfico para r
 Este script executa a etapa inicial de geolocalização por endereço. Por meio dos dados obtidos via API do Google, é possível mapear a posição do cliente e cruzar essas informações com os dados de previsão climática, conforme apresentado a seguir.
 
 
-### 🧠 API Analise de Risco
+## 📖 Documentação da API ~  Analise de Risco
 
+Nesta etapa construimos a documentação interativa da API, onde é possível visualizar e testar diretamente todos os recursos disponíveis no sistema. A estrutura é composta por três rotas principais: o endpoint `/api/health`, utilizado para verificar a integridade do serviço e confirmar se as bases de dados foram carregadas corretamente; o endpoint `/api/consulta`, responsável por executar a pesquisa geográfica a partir de um endereço; e o endpoint `/api/mapas`, que permite consultar os dados referentes aos cinco mapas integrados à aplicação.
 
+### 🚀 Testando o Carregamento
+
+Para verificar se a aplicação iniciou corretamente e se os dados estão prontos para uso, acesse o endereço abaixo pelo navegador ou por uma ferramenta de requisições (como Postman, Insomnia ou cURL):
+
+```text
+http://localhost:8000/api/health
+```
+
+Caso o sistema esteja operando normalmente, a API retornará uma resposta no formato JSON confirmando que não houve falhas durante a inicialização:
+
+```json
+{
+  "carregado": true,
+  "erro": null
+}
+```
 <p align="center">
 <img width="940" height="492" alt="07_API_Analise_Risco" src="https://github.com/user-attachments/assets/1e0634d1-5a93-45d9-8777-529f8bb08a3f" /></a>
 </p>
 
-📌 Criar estrutura de dados armazenamento de informações climaticas históricas
+### Retorno do Teste de Conexão
 <p align="center">
 <img width="467" height="305" alt="08_Teste_API" src="https://github.com/user-attachments/assets/0b1f4f19-3635-47bd-b53a-91ed654bd628" /></a>
 </p>
 
-📌 Criar estrutura de dados armazenamento de informações climaticas históricas
+### Simulação de Pesquisa e Indexação de Endereços
 <p align="center">
 <img width="763" height="392" alt="09_Result_API" src="https://github.com/user-attachments/assets/b9b2f1d6-bb75-4fca-99e6-46cda612c6bc" /></a>
 </p>
