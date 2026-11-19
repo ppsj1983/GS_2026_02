@@ -143,25 +143,11 @@ Caso o sistema esteja operando normalmente, a API retornará uma resposta no for
 <img width="940" height="492" alt="07_API_Analise_Risco" src="https://github.com/user-attachments/assets/1e0634d1-5a93-45d9-8777-529f8bb08a3f" /></a>
 </p>
 
-### Retorno do Teste de Conexão
-<p align="center">
-<img width="467" height="305" alt="08_Teste_API" src="https://github.com/user-attachments/assets/0b1f4f19-3635-47bd-b53a-91ed654bd628" /></a>
-</p>
 
-### Simulação de Pesquisa e Indexação de Endereços
-<p align="center">
-<img width="763" height="392" alt="09_Result_API" src="https://github.com/user-attachments/assets/b9b2f1d6-bb75-4fca-99e6-46cda612c6bc" /></a>
-</p>
+| Retorno do Teste de Conexão | Simulação de Pesquisa e Indexação de Endereços |
+| :---: | :---: |
+| <img width="420" alt="08_Teste_API" src="https://github.com/user-attachments/assets/0b1f4f19-3635-47bd-b53a-91ed654bd628" /> | <img width="420" alt="09_Result_API" src="https://github.com/user-attachments/assets/b9b2f1d6-bb75-4fca-99e6-46cda612c6bc" /> |
 
-📌 Criar estrutura de dados armazenamento de informações climaticas históricas
-<p align="center">
-<img width="934" height="242" alt="10_Front_End_Pesquisa" src="https://github.com/user-attachments/assets/24ac5000-0520-4c1a-abba-ac45a33d558d" /></a>
-</p>
-
-📌 Criar estrutura de dados armazenamento de informações climaticas históricas
-<p align="center">
-<img width="898" height="230" alt="11_Front_End_Resultado" src="https://github.com/user-attachments/assets/513d68b9-ae7b-4f5d-83b8-6f15fa0189c0" /></a>
-</p>
 
 📌 Criar estrutura de dados armazenamento de informações climaticas históricas
 <p align="center">
