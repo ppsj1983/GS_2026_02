@@ -148,16 +148,29 @@ Caso o sistema esteja operando normalmente, a API retornará uma resposta no for
 | :---: | :---: |
 | <img width="420" alt="08_Teste_API" src="https://github.com/user-attachments/assets/0b1f4f19-3635-47bd-b53a-91ed654bd628" /> | <img width="420" alt="09_Result_API" src="https://github.com/user-attachments/assets/b9b2f1d6-bb75-4fca-99e6-46cda612c6bc" /> |
 
+### 📌 Front End ~ Pesquisa e Indexação de Endereços
+Responsável pela entrada de dados do usuário, conta com campos para **endereço**, **data** e um seletor de **período** (`MADRUGADA`, `MANHA`, `TARDE` e `NOITE`). Durante o envio da requisição à API, o botão de ação altera dinamicamente seu estado para *"Processando..."* e bloqueia múltiplos cliques até o retorno dos dados.
 
-📌 Criar estrutura de dados armazenamento de informações climaticas históricas
 <p align="center">
-<img width="848" height="406" alt="12_Front_End_Geografia" src="https://github.com/user-attachments/assets/c68f99d4-0e32-4d0b-bfd1-9957723880fb" /></a>
+<img width="934" height="242" alt="10_Front_End_Pesquisa" src="https://github.com/user-attachments/assets/ededf447-244c-41fb-a63f-869f37f48b71" /></a>
 </p>
 
-📌 Criar estrutura de dados armazenamento de informações climaticas históricas
+### 📌 Front End ~ Retorno de Probabilidades de Risco
+Renderizada condicionalmente apenas após o retorno de uma consulta válida (`{res && ...}`). A tabela gera automaticamente seus cabeçalhos (`<th>`) e linhas (`<td>`) a partir das chaves do objeto JSON retornado pelo backend, aplicando formatação numérica no padrão brasileiro (`pt-BR`).
 <p align="center">
-<img width="824" height="398" alt="13_Front_End_Inf_Publica" src="https://github.com/user-attachments/assets/46d4900d-e1c4-4bb6-84dc-e675f6e9af32" /></a>
+<img width="898" height="230" alt="11_Front_End_Resultado" src="https://github.com/user-attachments/assets/5e0835ee-0b82-4579-b5fe-31df48e8c410" /></a>
 </p>
+
+### 📌 Front End ~ Análise Mapa Cidade de São Paulo
+Permite a exploração espacial das probabilidades de risco por célula geográfica:
+* **Abas (`tablist`):** Botões interativos que alternam a camada de risco exibida no mapa (Acidente de Trânsito, Alagamento, Defesa Civil, Segurança Pública e Probabilidade Combinada).
+* **Mapa (`MapContainer`):** Inicializado com foco na cidade de São Paulo (`[-23.55, -46.63]`), utiliza a base cartográfica do **OpenStreetMap** (`TileLayer`), sobrepõe a malha de polígonos coloridos conforme a intensidade do risco (`GeoJSON`), exibe valores detalhados ao passar o cursor (`bindTooltip`) e posiciona um marcador exato no endereço pesquisado.
+
+
+| 📌 Front End ~ Geoindexação de endereços e polígonos Voronoi | 📌 Front End ~ Detalhamento e geoindexação de endereços e polígonos Voronoi |
+| :---: | :---: |
+| <img width="420" alt="12_Front_End_Geografia" src="https://github.com/user-attachments/assets/c68f99d4-0e32-4d0b-bfd1-9957723880fb" /> | <img width="420" alt="13_Front_End_Inf_Publica" src="https://github.com/user-attachments/assets/46d4900d-e1c4-4bb6-84dc-e675f6e9af32" /> |
+
 ---
 
 ## 🎯 Objetivo
