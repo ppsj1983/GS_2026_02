@@ -55,6 +55,141 @@ Capital paulista registrou 782 mortes no trânsito entre janeiro e setembro de 2
 O aumento da frota de motocicletas na capital acompanha a tendência de crescimento das mortes. Em 2026, a cidade já tinha cerca de 1,17 milhão de motos em circulação, porem o problema se agrava em vias com caracteristicas especificas, Mutal 15 (2026) avalia que Moradores apontam riscos no trânsito nas vias com mais acidentes em SP, das 10 vias com maiores índices de mortes no trânsito em São Paulo, oito passam por distritos periféricos, a proporção de casos que levaram à morte (em relação ao total de acidentes) foi maior nas subprefeituras mais distantes do centro, como Perus, Pirituba e Campo Limpo, do que nas regiões centrais. Por outro lado, as ocorrências não fatais se destacam nas subprefeituras da Sé, no centro, na Penha e na Mooca, ambas na zona leste, e, como exceção, na Capela do Socorro, na zona sul.
 
 ## 👩🏻‍💻 Proposta Aplicação Sistemica.
+## Funcionalidades
+
+- Pesquisa por endereço, data e período.
+- Geocodificação para latitude e longitude.
+- Identificação da célula de Voronoi por análise espacial.
+- Consulta de probabilidades associadas à célula.
+- Consulta meteorológica, conforme disponibilidade da API externa.
+- Cinco mapas: acidentes de trânsito, alagamentos, Defesa Civil, segurança pública e risco combinado.
+- Marcador do endereço consultado em cada mapa.
+- Verificação de carregamento das bases e documentação interativa da API.
+
+## Tecnologias
+
+| Camada | Tecnologias |
+|---|---|
+| Interface | React, Vite, JavaScript, Leaflet / React Leaflet |
+| API | Python, FastAPI, Uvicorn |
+| Dados e geoprocessamento | Pandas, GeoPandas, Shapely, CSV, Shapefile, GeoJSON |
+| Integrações | Serviço de geocodificação e serviço meteorológico |
+
+## Arquitetura
+
+```text
+Usuário → React (frontend) → FastAPI (backend)
+                                  ├── Geocodificação
+                                  ├── Meteorologia
+                                  ├── Voronoi (Shapefile)
+                                  └── Probabilidades (CSV)
+                         ← JSON / GeoJSON → Mapas e resultados
+```
+
+## Estrutura de pastas
+
+```text
+analise-risco-react/
+├── backend/
+│   ├── app/
+│   │   └── main.py
+│   ├── data/
+│   │   ├── celulas_voronoi_utm.shp
+│   │   ├── celulas_voronoi_utm.shx
+│   │   ├── celulas_voronoi_utm.dbf
+│   │   ├── celulas_voronoi_utm.prj
+│   │   ├── probabilidades_consolidadas.csv
+│   │   └── mapa_final.geojson
+│   ├── requirements.txt
+│   └── .env.example
+├── frontend/
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── style.css
+│   ├── package.json
+│   └── index.html
+├── .gitignore
+└── README.md
+```
+
+## Pré-requisitos
+
+- Python 3.10 ou superior, compatível com as dependências instaladas.
+- Node.js e npm, em versões compatíveis com o Vite do projeto.
+- Git.
+- Arquivos de dados autorizados para uso.
+- Credenciais das APIs externas, quando exigidas.
+
+
+### 2. Backend 
+
+Arquivo `backend/.env` com os caminhos e credenciais necessários. Exemplo de `.env.example`:
+
+```dotenv
+GOOGLE_MAPS_API_KEY=
+VORONOI_SHP=data/celulas_voronoi_utm.shp
+PROBABILIDADES_CSV=data/probabilidades_consolidadas.csv
+MAPA_FINAL_GEOJSON=data/mapa_final.geojson
+CORS_ORIGINS=http://localhost:5173
+```
+> Os nomes das variáveis devem corresponder aos utilizados no código. Nunca publique o `.env` real.
+
+### 3. Frontend (novo terminal)
+
+Acesso por interface em **http://localhost:5173**.
+
+## API
+
+Com o backend em execução:
+
+| Método | Rota | Descrição |
+|---|---|---|
+| GET | `/api/health` | Verifica o carregamento das bases |
+| POST | `/api/consulta` | Processa endereço, data e período |
+| GET | `/api/mapas` | Disponibiliza dados geográficos dos mapas |
+
+Documentação interativa: **http://127.0.0.1:8000/docs**.
+
+Exemplo de requisição para `POST /api/consulta`:
+
+```json
+{
+  "endereco": "RUA QUERANDIES 16 PIRITUBA, SAO PAULO",
+  "data": "2026-11-15",
+  "periodo": "TARDE"
+}
+```
+
+Exemplo **ilustrativo** de resposta (não representa dados reais):
+
+```json
+{
+  "latitude": -23.480066,
+  "longitude": -46.759776,
+  "id_celula": 123,
+  "probabilidades": {
+    "acidente_transito": 0.31,
+    "alagamento": 0.18,
+    "defesa_civil": 0.14,
+    "seguranca_publica": 0.35,
+    "risco_combinado": 0.33
+  },
+  "nivel_risco": "MODERADO"
+}
+```
+
+O contrato efetivo dos endpoints e os nomes dos campos devem ser conferidos em `/docs`.
+
+
+## Segurança e publicação
+
+- utilização de `.env`, `.venv/`, `node_modules/` e arquivos sensíveis fora do Git.
+- Versionamento `.env.example` sem credenciais.
+- Confirmação de licenças e permissões antes de publicar bases CSV, Shapefile ou GeoJSON.
+- Não utilização de `allow_origins=["*"]` com credenciais em produção.
+
+
 
 ## 👩🏻‍💻 Aplicação Sistema de Análise de Risco Cidadão.
 
