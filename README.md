@@ -350,15 +350,11 @@ Permite a exploração espacial das probabilidades de risco por célula geográf
 
 ---
 
-## 🎯 Conclusão
+# Conclusão: Impacto Social da Proposta Sistêmica
 
-Este trabalho tem como objetivo:
+A proposta demonstra como a **Inteligência Artificial pode ser utilizada como ferramenta de transformação social**, promovendo segurança, prevenção e qualidade de vida. Ao integrar dados urbanos e identificar áreas de risco, o sistema transforma informações complexas em conhecimento acessível, auxiliando os cidadãos na tomada de decisões mais seguras e conscientes.
 
-- 📌 Criar estrutura de dados armazenamento de informações climaticas históricas
-- 📌 Processar informações de clima e condições climaticas
-- 📌 Aplicar conceitos de machine learning para previsão de chuvas e identificação de áreas criticas expostas a eventos climaticos
-- 📌 Análise de Dados
-- 📌 Apresentações Graficas e Mapas
+**Mais do que uma solução tecnológica, o projeto busca democratizar o acesso à informação, fortalecer a autoproteção da população e contribuir para a redução da exposição a riscos e vulnerabilidades sociais.**
 
 ---
 
