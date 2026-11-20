@@ -13,7 +13,7 @@
 - <a href="https://www.linkedin.com/in/paulo-pereira-de-souza-junior-mba-msc-0b497825/">Paulo Pereira de Souza Junior</a>
 
 ## 👨‍🎓 Apresentacao: 
-- <a href="https://youtu.be/6IrO9j_jJ9E">Video Apresentação - YOUTUBE</a>
+- <a href="https://youtu.be/og8UAUA5-BQ">Video Apresentação - YOUTUBE</a>
 
 ## 👨‍🎓 Git Hub: 
 - <a href="https://github.com/ppsj1983/GS_2026_02">GS 2026 2º Semestre</a>
